@@ -9,6 +9,15 @@ Validated data count and mapping.
 Using truncate to delete the data, it is much faster to delete everything opposed to the
 delete function which takes longer to delete.
 Not using a where clause to delete.
+
+Parameters:
+	None. 
+	This SPROC does not accept any parameters or return any values/
+
+Usage Example:
+
+	EXECUTE bronze.load_bronze;
+
 ======================================================
 */
 
